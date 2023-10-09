@@ -139,10 +139,6 @@ To enable the encryption app, run the following command:
 {occ-command-example-prefix} encryption:enable
 ----
 
-[source,bash,subs="attributes+"]
-----
-{occ-command-example-prefix} encryption:select-encryption-type masterkey -y
-----
 
 If the encryption app is successfully enabled, you should see the following confirmations:
 
@@ -194,15 +190,6 @@ Then enable encryption, using the following command:
 ----
 {occ-command-example-prefix} encryption:enable
 ----
-
-After that, enable the master key, using the following command:
-
-[source,bash,subs="attributes+"]
-----
-{occ-command-example-prefix} encryption:select-encryption-type masterkey
-----
-
-NOTE: The master key mode has to be set up in a newly created instance.
 
 Finally, encrypt all data, using the following command:
 
@@ -316,12 +303,6 @@ After that, enable encryption, using the following command:
 {occ-command-example-prefix} encryption:enable
 ----
 
-Then, enable the user-key, using the following command:
-
-[source,bash,subs="attributes+"]
-----
-{occ-command-example-prefix} encryption:select-encryption-type user-keys
-----
 
 Finally, encrypt all data, using the following command:
 
