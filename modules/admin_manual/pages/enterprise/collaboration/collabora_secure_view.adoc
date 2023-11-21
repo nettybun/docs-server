@@ -83,6 +83,8 @@ To make sure that the secure view feature is deployed securely and cannot be cir
 
 Additionally, you might want to _disable public link sharing_ via menu:Settings[Admin > Sharing > Allow users to share via link] so that users cannot accidentally share files publicly without secure view protection.
 
+* Secure view is only supported in Classic Design, it is not supported in the New Design, Web app (User interface for ownCloud).
+
 == Supported File Formats
 
 Secure view only supports a limited number of file formats:
